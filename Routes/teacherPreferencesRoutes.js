@@ -1,5 +1,5 @@
 import express from "express";
-import { createOrUpdatePreferences, getPreferences } from "../Controllers/teacherPreferences.controller.js";
+import { createOrUpdatePreferences, getPreferences } from "../Controllers/teacherPreferences.Controller.js";
 import protect from "../Middleware/authMiddleware.js";
 
 const router = express.Router();
