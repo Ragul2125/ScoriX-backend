@@ -1,5 +1,5 @@
 import express from "express";
-import { questionPaperAgent } from "../Controllers/questionPaperAgent.controller.js";
+import { questionPaperAgent } from "../Controllers/questionPaperAgentController.js";
 import protect from "../Middleware/authMiddleware.js";
 import { uploadQuestionPaperFiles } from "../Middleware/queFile.js";
 

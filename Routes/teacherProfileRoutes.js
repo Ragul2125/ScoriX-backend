@@ -1,5 +1,5 @@
 import express from "express";
-import { createOrUpdateProfile, getProfile } from "../Controllers/teacherProfile.Controller.js";
+import { createOrUpdateProfile, getProfile } from "../Controllers/teacherProfileController.js";
 import protect from "../Middleware/authMiddleware.js";
 import upload from "../Middleware/upload.js";
 

@@ -5,7 +5,7 @@ import {
   updateClassroom,
   deleteClassroom,
   getClassroomById
-} from "../Controllers/classroom.controller.js";
+} from "../Controllers/classroomController.js";
 import protect from "../Middleware/authMiddleware.js";
 import { uploadNameList } from "../Middleware/uploadMiddleware.js";
 
