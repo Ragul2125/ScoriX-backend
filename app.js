@@ -23,9 +23,11 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/uploads", express.static(path.join(path.resolve(), "uploads")));
 
+const frontend_url = process.env.FRONTEND_URL;
+
 app.use(
   cors({
-    origin: "http://localhost:5173", // your frontend URL
+    origin: frontend_url, // your frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true, 
   })
